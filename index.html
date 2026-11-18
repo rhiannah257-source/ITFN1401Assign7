@@ -1,0 +1,110 @@
+	<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="author" content="Rhianna Harris">
+	<meta name="description" content="StudyMatch helps college students find study groups, connect with study partners, share academic resources, and reach their educational goals.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMatch</title>  
+    <link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body onload="showLastModified()">
+
+	<!-- Header Section: Logo & Main Navigation -->
+	<header>
+	    <!-- Adding a logo Image -->
+	    <img src="Logo.png" alt="StudyMatch Logo" width="150">
+	    <h1>StudyMatch</h1>
+
+	    <nav>
+			<a href="home_assignment6.html">Home</a> |
+			<a href="about.html">About</a> |
+			<a href="account.html">Make an Account</a> |
+			<a href="contact.html">Contact Us</a>
+	    </nav>
+
+	</header>
+
+	<hr>
+
+   	<!-- Main Content Area -->
+
+      <main>
+
+	<!-- Search Section -->
+	<section>
+	    <h2 class="visually-hidden">Search Filters</h2>
+	    <form>
+		<input type="text" placeholder="Search Course / Subject" aria-label="Search Course or Subject">
+		<input type="text" placeholder="Day & amp; Time" aria-label="Day and Time">
+		<input type="text" placeholder="Study Preference" aria-label="Study Preference">
+		<button type="submit">FIND GROUPS</button>
+	    </form>
+	</section>
+
+	<hr>
+
+
+	   <!-- Left Sidebar: Filters -->
+	   <aside>
+	       <h2>FILTERS</h2>
+	       <ul>
+		   <li>Course</li>
+		   <li>Subject</li>
+		   <li>Availability</li>
+		   <li>Online / In Person</li>
+		   <li>Group Size</li>
+	       </ul>
+	   </aside>
+
+	   <hr>
+
+           <!-- Center Content: Available Study Groups -->
+	   <section> 
+		<h2>AVAILABLE STUDY GROUPS</h2>
+
+		<article>
+		    <h3>Statistics - Monday 6 PM</h3>
+		    <p>3 members <button type="button">Join</button></p>
+		</article>
+
+		<article>
+		    <h3>Computer Science - Thursday 7 PM</h3>
+		    <p>2 members <button type="button">Join</button></p>
+		</article>
+	    </section>	
+
+	    <hr>
+
+	    <!-- Right Sidebar: Upcoming Sessions -->
+	    <aside>
+                <h2>UPCOMING SESSIONS</h2>
+
+		<!-- Adding A New Image -->
+		<img src="cs-group.png" alt="Students studying together" width="100">
+
+		<p><strong>Today - Statistics</strong><br>6:00 PM</p>
+		<p><strong>Tomorrow - English</strong><br>4:00 PM</p>
+	    </aside>
+
+	</main>
+
+	<hr>
+
+	<!-- Footer Section: Contact Information -->
+	<footer> 
+	    <h2>Contact Us</h2>
+	    <!-- tel: allows users on mobile to tap the number to call directly --> 
+            <p>Phone: <a href="tel:4708996310">(470) 899-6310</a></p>
+	    <p>Email: <a href="mailto:Rharris78@student.clayton.edu">Rharris78@student.clayton.edu</a></p>
+	    <p>Due Date: <time datetime="2026-11-01">November 15, 2026</time></p>
+        <div id="lastModified"></div>
+	    <div>Created by <address style="display:inline; font-style:normal;">Rhianna Harris</address></div>
+	</footer>
+
+
+</body>
+</html>
